@@ -10,7 +10,7 @@ colors.push("pink");
 console.log(colors);
 
 // Exercise 3: Remove the last color from the array and print the array.
-colors.pop("green");
+colors.pop();
 console.log(colors);
 
 // Exercise 4: Add a color to the beginning of the array and print the array.
@@ -18,7 +18,7 @@ colors.unshift("purple");
 console.log(colors);
 
 // Exercise 5: Remove the first color from the array and print the array.
-colors.unshift("red");
+colors.shift();
 console.log(colors);
 
 // Exercise 6: Print the number of colors in the array.
@@ -33,7 +33,7 @@ console.log(colors);
 
 // Exercise 9: Create an array of numbers and print the third number.
 let numbers = [1, 2, 3, 4, 5];
-console.log(numbers[4]);
+console.log(numbers[2]);
 
 // Exercise 10: Remove the last element, add two numbers to the beginning, and print the array.
 
