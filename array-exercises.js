@@ -6,7 +6,7 @@ let colors = ["bleu", "purple", "green"];
 console.log(colors[0]);
 
 // Exercise 2: Add a color to the end of the array and print the array.
-colors.add("pink");
+colors.push("pink");
 console.log(colors);
 
 // Exercise 3: Remove the last color from the array and print the array.
@@ -14,7 +14,7 @@ colors.pop("green");
 console.log(colors);
 
 // Exercise 4: Add a color to the beginning of the array and print the array.
-colors.unshift("yellow");
+colors.unshift("purple");
 console.log(colors);
 
 // Exercise 5: Remove the first color from the array and print the array.
@@ -39,4 +39,5 @@ console.log(numbers[4]);
 
 numbers.pop();
 numbers.unshift(0, -1);
-console.log(numbers);
+console.log(numbers);                                                                             
+
